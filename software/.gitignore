@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+detection/outputs/
+simulation/outputs/
+quantization/**/results/
+quantization/**/results_before_gray/
+quantization/**/results_after_gray/
+pl_inference/results/

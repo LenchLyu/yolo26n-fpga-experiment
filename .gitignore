@@ -1,0 +1,38 @@
+# Python and local IDE state
+**/__pycache__/
+*.pyc
+.idea/
+_ide/
+vitis_workspace/_ide/
+data/
+
+# Vivado generated files. Keep project_1.xpr, project_1.srcs source RTL/BD/IP configs,
+# scripts, and testbenches under version control.
+project_1/.Xil/
+project_1/gray_verify_xsim/
+project_1/project_1.cache/
+project_1/project_1.gen/
+project_1/project_1.hw/
+project_1/project_1.ip_user_files/
+project_1/project_1.runs/
+project_1/project_1.sim/
+project_1/project_1.srcs/utils_1/
+project_1/project_1.srcs/sources_1/bd/image_system/ui/
+*.jou
+*.log
+*.wdb
+
+# Generated image vectors and renderings
+project_1/testdata/*.hex
+project_1/testdata/sim_output.png
+
+# Local software outputs and model artifacts
+software/detection/outputs/
+software/simulation/outputs/
+software/quantization/**/results*/
+software/pl_inference/results/
+software/models/**/*.pt
+
+# Local implementation outputs
+*.bin
+*.pdi

@@ -1,0 +1,7 @@
+# Install PyTorch for your own CPU/CUDA environment first if needed.
+ultralytics==8.4.41
+numpy
+opencv-python
+Pillow
+onnx==1.21.0
+onnxruntime==1.25.0
